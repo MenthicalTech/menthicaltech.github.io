@@ -27,8 +27,8 @@
     </header>
     <section id="pageForm">
         <form action="#">
-            <label for="recipientName">Recipient name:</label>
-            <input type="text" name="recipientName" placeholder="Enter your Recipient Name" />
+            <!-- <label for="recipientName">Recipient name:</label>
+            <input type="text" name="recipientName" placeholder="Enter your Recipient Name" /> -->
 
             <label for="organizationName">Organization name:
             </label>
@@ -47,7 +47,7 @@
             <input type="text" name="hostName" placeholder="Host Name" />
 
             <label for="volunteerCount">Number of Volunteers:</label>
-            <input type="number" id="volunteerCount" name="volunteerCount" min="5" max="10" required />
+            <input type="number" id="volunteerCount" name="volunteerCount" min="0" max="10" required />
         
             <div id="volunteerContainer"></div>
 
@@ -57,7 +57,7 @@
 
 
     <article id="placeholderContent">
-        Hello <span id="recipientName">recipientName</span>!
+        Hello <span id="recipientName">volunteer name</span>!
         <br/>
         <br/> You have been invited to volunteer for an event held by <span id="organizationName">organizationName</span> on <span id="eventDate">eventDate</span>. Please come to the following website: <span id="websiteURL">websiteURL</span> to sign up as a volunteer.
         <br/>
