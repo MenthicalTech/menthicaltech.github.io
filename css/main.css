@@ -69,6 +69,34 @@ ul.topnav li a.active {
 ul.topnav li.right {
     float: right;
 }
+
+
+.gallery {
+    display: inline-block;
+    margin: 10px;
+}
+
+.desc {
+    display: none;
+}
+
+.banner {
+    position: relative;
+    min-height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner img {
+    position: absolute;
+    width: 80%;
+    height: 80%;
+    display: none;
+    object-fit: fill;
+    border-radius: 5px;
+}
+
 @media screen and (max-width: 600px) {
     ul.topnav li.right,
     ul.topnav li {
