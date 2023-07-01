@@ -159,6 +159,9 @@ footer.footer {
     position: relative;
 }
 
+footer.reg-footer {
+    position: relative;
+}
 
 div.gallery {
     margin: 5px;

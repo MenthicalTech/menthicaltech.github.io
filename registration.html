@@ -3,7 +3,7 @@
 
 <head>
     <title>Invitation Page</title>
-    <link rel="stylesheet" type="text/css" href="css/main.css" />
+    <link rel="stylesheet" type="text/css" href="css/main.css" />      
 </head>
 
 <body>
@@ -50,7 +50,10 @@
             <input type="text" name="email" placeholder="Enter your Email Address" />
 			<label for="phoneNumber">Phone Number
             </label>
-            <input type="text" name="lastName" placeholder="Enter your Phone Number" />
+            
+            <label for="phoneNumber">Phone Number:</label>
+            <input type="text" name="phoneNumber" placeholder="Enter your Phone Number" />
+
 			<label for="signUpNewsletter">Sign up for newsletter:
             </label>
 			  <input type="radio" name="signUpNewsletter" value="Yes" checked> Yes 
@@ -59,8 +62,11 @@
         </form>
     </section>
 
-    <footer>This events site is for IT-FP3215 tasks.
+    <footer class="reg-footer">
+        This events site is for IT-FP3215 tasks.
     </footer>
+
+    <script src="js/validation.js"></script>
 
 </body>
 
