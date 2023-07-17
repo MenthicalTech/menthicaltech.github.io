@@ -13,40 +13,34 @@
         </div>
         <nav>
             <ul class="topnav">
-                <li><a href="index.html">Home</a>
-                </li>
-                <li><a href="invitation.html">Invitation</a>
-                </li>
-                <li><a href="gallery.html">Gallery</a>
-                </li>
-                <li><a href="registration.html" class="active">Registration</a>
-                </li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="invitation.html">Invitation</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="registration.html" class="active">Registration</a></li>
             </ul>
-
         </nav>
     </header>
     <section id="pageForm">
-        <form action="#">
-			
-            <!--
-			Include other form fields here
-			
-			-->
-            <input type="hidden" name="userName"/>
-            <input type="hidden" name="password"/>
+        <form action="confirm.html" id="interestsForm">
+            <!-- Hidden fields to store data from the registration.html form -->
+            <input type="hidden" name="userName" />
+            <input type="hidden" name="password" />
             <input type="hidden" name="passwordVerify" />
             <input type="hidden" name="firstName" />
             <input type="hidden" name="lastName" />
-            <input type="hidden" name="email"/>
-            <input type="hidden" name="lastName" />
-			<input type="hidden" name="signUpNewsletter"/ >
-			
-            <input type="submit" value="Register">
+            <input type="hidden" name="email" />
+            <input type="hidden" name="phoneNumber" />
+            <input type="hidden" name="signUpNewsletter" />
+
+
+            <input type="submit" value="Submit">
         </form>
     </section>
 
-    <footer>This events site is for IT-FP3215 tasks.
-    </footer>
+    <footer>This events site is for IT-FP3215 tasks.</footer>
+
+    <script src="js/interests.js"></script>
+
 </body>
 
 </html>
