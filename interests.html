@@ -16,7 +16,7 @@
                 <li><a href="index.html">Home</a></li>
                 <li><a href="invitation.html">Invitation</a></li>
                 <li><a href="gallery.html">Gallery</a></li>
-                <li><a href="registration.html" class="active">Registration</a></li>
+                <li><a href="registration.html">Registration</a></li>
             </ul>
         </nav>
     </header>
@@ -25,19 +25,32 @@
             <!-- Hidden fields to store data from the registration.html form -->
             <input type="hidden" name="userName" />
             <input type="hidden" name="password" />
-            <input type="hidden" name="passwordVerify" />
             <input type="hidden" name="firstName" />
             <input type="hidden" name="lastName" />
             <input type="hidden" name="email" />
             <input type="hidden" name="phoneNumber" />
             <input type="hidden" name="signUpNewsletter" />
 
+            <label for="interests">Interests:</label><br>
+            <input type="checkbox" name="interests" value="Reading">Reading<br>
+            <input type="checkbox" name="interests" value="Hiking">Hiking<br>
+            <input type="checkbox" name="interests" value="Cooking">Cooking<br><br>
+
+            <!-- <label for="signUpNewsletter">Newsletter sign up:</label><br>
+            <input type="radio" name="signUpNewsletter" value="Yes"> Yes
+            <input type="radio" name="signUpNewsletter" value="No"> No<br><br> -->
+
+            <label for="comments">Comments:</label><br>
+            <textarea name="comments" rows="4" cols="50" placeholder="Enter your comments here"></textarea><br><br>
+
+            <label for="referredBy">Referred by:</label><br>
+            <input type="text" name="referredBy" placeholder="Enter who referred you"><br><br>
 
             <input type="submit" value="Submit">
         </form>
     </section>
 
-    <footer>This events site is for IT-FP3215 tasks.</footer>
+    <footer class="footer">This events site is for IT-FP3215 tasks.</footer>
 
     <script src="js/interests.js"></script>
 

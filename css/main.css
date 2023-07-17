@@ -1,7 +1,15 @@
+*, *::after, *::before {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
 body {
     font: 15px arial, sans-serif;
     color: #808080;
+    overflow-y:inherit;
 }
+
 input[type=text],
 select ,input[type=password],radio{
     width: 100%;
@@ -183,3 +191,66 @@ div.desc {
     padding: 15px;
     text-align: center;
 }
+
+/* Styling for the interests section */
+label[for="interests"] {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  input[type="checkbox"] {
+    margin-right: 5px;
+  }
+  
+  /* Styling for the newsletter section */
+  label[for="signUpNewsletter"] {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  input[type="radio"] {
+    margin-right: 5px;
+  }
+  
+  /* Styling for the comments section */
+  label[for="comments"] {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  textarea[name="comments"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    /* box-sizing: border-box; */
+
+  }
+  
+  /* Styling for the referredBy section */
+  label[for="referredBy"] {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  input[name="referredBy"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+
+  /* Styling confirm */
+  .con-head {
+    margin-top: 10px;
+  }
+  
+  .confirm-section p, .confirm-section .child {
+    padding-left: 10px;
+  }
